@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # 5. Kernel & Network Hardening (Sysctl)
 echo -e "\e[1;36m=== [5/7] PERSISTENT SYSCTL KERNEL HARDENING ===\e[0m"
 cat <<EOF > /etc/sysctl.d/99-cyberpatriot.conf
